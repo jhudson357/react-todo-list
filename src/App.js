@@ -10,9 +10,9 @@ function App() {
   const [todos, setTodos] = useState([])
   const [editTodo, setEditTodo] = useState(null)
 
-  useEffect(() => {
-    localStorage.setItem('todos', JSON.stringify(todos))
-  }, [todos])
+  // useEffect(() => {
+  //   localStorage.setItem('todos', JSON.stringify(todos))
+  // }, [todos])
 
   return (
     <>
